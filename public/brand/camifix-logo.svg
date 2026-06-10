@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="560" viewBox="0 0 2000 560" role="img" aria-labelledby="title desc">
+  <title id="title">CAMIFIX</title>
+  <desc id="desc">CAMIFIX Service de Smartphones y Notebooks</desc>
+  <rect width="2000" height="560" fill="transparent"/>
+  <g font-family="Arial Black, Impact, system-ui, sans-serif" font-weight="900">
+    <text x="112" y="350" fill="#f6d232" font-size="295" letter-spacing="-12">CAMI</text>
+    <text x="1040" y="350" fill="#ffffff" font-size="295" letter-spacing="-13">FIX</text>
+    <text x="150" y="505" fill="#ffffff" font-size="88" letter-spacing="-4">Service de Smartphones &amp; Notebooks</text>
+  </g>
+</svg>
