@@ -26,6 +26,8 @@ export function FinalCta() {
             <ButtonLink
               href={whatsappUrl(business.whatsappMessage)}
               className="w-full sm:w-auto"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" />
               Hablar por WhatsApp

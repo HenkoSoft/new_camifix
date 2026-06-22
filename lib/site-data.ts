@@ -5,8 +5,8 @@ import {
   CheckCircle2,
   Clock3,
   Cpu,
+  Globe2,
   Laptop,
-  MapPin,
   PlugZap,
   ShieldCheck,
   Smartphone,
@@ -15,15 +15,10 @@ import {
 
 export const business = {
   name: "CAMIFIX",
-  address: "Bartolomé Mitre 131",
-  city: "Marcos Paz",
-  province: "Buenos Aires",
-  country: "Argentina",
+  address: "Atención online",
   whatsappDisplay: "+54 11 6047-9367",
   whatsappMessage:
     "Hola CAMIFIX, quiero solicitar un presupuesto para reparar mi equipo.",
-  hours: ["Lunes a Sábado", "09:30 a 13:00", "16:30 a 20:00"],
-  mapUrl: "https://maps.google.com/?q=Bartolom%C3%A9%20Mitre%20131%20Marcos%20Paz%20Buenos%20Aires%20Argentina",
 };
 
 export const heroStats = [
@@ -79,8 +74,8 @@ export const brands = ["Apple", "Samsung", "Motorola", "Xiaomi", "Realme", "TCL"
 
 export const processSteps = [
   {
-    title: "Traé tu equipo",
-    description: "Lo recibimos en el local y escuchamos qué problema estás notando.",
+    title: "Escribinos por WhatsApp",
+    description: "Contanos qué problema estás notando y coordinamos la mejor forma de revisar tu equipo.",
   },
   {
     title: "Diagnóstico",
@@ -126,7 +121,7 @@ export const testimonials = [
 ];
 
 export const contactItems = [
-  { label: "Dirección", value: "Bartolomé Mitre 131, Marcos Paz", icon: MapPin },
+  { label: "Modalidad", value: "Atención online por WhatsApp", icon: Globe2 },
   { label: "WhatsApp", value: business.whatsappDisplay, icon: Smartphone },
-  { label: "Horarios", value: "Lun a Sáb 09:30-13:00 / 16:30-20:00", icon: Clock3 },
+  { label: "Disponibilidad", value: "Respondemos por WhatsApp de lunes a sábado", icon: Clock3 },
 ];

@@ -37,6 +37,8 @@ export function Header() {
           variant="secondary"
           className="hidden min-h-10 px-4 md:inline-flex"
           ariaLabel="Consultar por WhatsApp"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <MessageCircle className="h-4 w-4" aria-hidden="true" />
           Consultar

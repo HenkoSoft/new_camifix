@@ -60,6 +60,8 @@ export function MobileMenu({ items }: MobileMenuProps) {
             </div>
             <Link
               href={whatsappUrl(business.whatsappMessage)}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
               className="mt-2 flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-success px-4 text-sm font-bold text-background transition hover:bg-[#35d66d]"
             >

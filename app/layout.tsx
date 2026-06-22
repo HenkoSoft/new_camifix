@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 const siteUrl = "https://camifix.com.ar";
-const title = "CAMIFIX | Servicio técnico de celulares y notebooks en Marcos Paz";
+const title = "CAMIFIX | Servicio técnico online de celulares y notebooks";
 const description =
-  "Servicio técnico especializado en reparación de celulares y notebooks en Marcos Paz. Cambio de pantalla, batería, pin de carga, diagnóstico y reparaciones Apple y Android.";
+  "Servicio técnico online especializado en reparación de celulares y notebooks. Cambio de pantalla, batería, pin de carga, diagnóstico y reparaciones Apple y Android.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   description,
   applicationName: "CAMIFIX",
   keywords: [
-    "servicio técnico celulares marcos paz",
-    "reparación celulares marcos paz",
-    "cambio de pantalla marcos paz",
-    "cambio de batería marcos paz",
-    "reparación iPhone Marcos Paz",
-    "reparación Samsung Marcos Paz",
-    "técnico celulares Buenos Aires",
-    "reparación notebooks Marcos Paz",
-    "service notebooks Marcos Paz",
+    "servicio técnico celulares online",
+    "reparación celulares online",
+    "cambio de pantalla celular",
+    "cambio de batería celular",
+    "reparación iPhone",
+    "reparación Samsung",
+    "técnico celulares por WhatsApp",
+    "reparación notebooks online",
+    "service notebooks",
   ],
   authors: [{ name: "CAMIFIX" }],
   creator: "CAMIFIX",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: "/og",
         width: 1200,
         height: 630,
-        alt: "CAMIFIX servicio técnico de celulares y notebooks en Marcos Paz",
+        alt: "CAMIFIX servicio técnico online de celulares y notebooks",
       },
     ],
   },

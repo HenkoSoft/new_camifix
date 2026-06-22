@@ -7,6 +7,8 @@ export function FloatingWhatsApp() {
   return (
     <Link
       href={whatsappUrl(business.whatsappMessage)}
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Hablar por WhatsApp con CAMIFIX"
       className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-success text-background shadow-success transition duration-300 hover:-translate-y-1 hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-success focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:h-auto sm:w-auto sm:gap-2 sm:px-5 sm:py-4"
     >

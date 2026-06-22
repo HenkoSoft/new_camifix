@@ -10,7 +10,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Clientes"
           title="Reparaciones que se notan en el uso diario."
-          description="Historias reales y cercanas de clientes de Marcos Paz y la zona."
+          description="Historias reales de clientes que confiaron sus equipos a CAMIFIX."
         />
         <div className="mt-14 grid gap-4 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (

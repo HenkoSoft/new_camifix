@@ -9,6 +9,8 @@ type ButtonLinkProps = {
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
   ariaLabel?: string;
+  target?: string;
+  rel?: string;
 };
 
 export function ButtonLink({
@@ -17,11 +19,15 @@ export function ButtonLink({
   variant = "primary",
   className,
   ariaLabel,
+  target,
+  rel,
 }: ButtonLinkProps) {
   return (
     <Link
       href={href}
       aria-label={ariaLabel}
+      target={target}
+      rel={rel}
       className={cn(
         "group inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background",
         variant === "primary" &&

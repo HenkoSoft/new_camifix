@@ -17,7 +17,7 @@ export function Hero() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1.5 text-sm text-zinc-300 backdrop-blur-xl">
               <Sparkles className="h-4 w-4 text-primary" aria-hidden="true" />
-              Servicio tecnico premium en Marcos Paz
+              Servicio tecnico online
             </div>
             <h1 className="mt-7 text-balance text-5xl font-semibold leading-[0.94] text-text sm:text-6xl lg:text-7xl">
               Tu celular vuelve a funcionar.
@@ -27,8 +27,15 @@ export function Hero() {
               y mas. Reparaciones rapidas, garantia y atencion profesional.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <ButtonLink href={budgetUrl}>Solicitar presupuesto</ButtonLink>
-              <ButtonLink href={budgetUrl} variant="secondary">
+              <ButtonLink href={budgetUrl} target="_blank" rel="noopener noreferrer">
+                Solicitar presupuesto
+              </ButtonLink>
+              <ButtonLink
+                href={budgetUrl}
+                variant="secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <MessageCircle className="h-4 w-4" aria-hidden="true" />
                 WhatsApp
               </ButtonLink>

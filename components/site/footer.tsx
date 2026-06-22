@@ -11,12 +11,14 @@ export function Footer() {
         <div>
           <Logo className="max-w-fit" showTagline />
           <p className="mt-5 max-w-sm text-sm leading-7 text-zinc-400">
-            Servicio técnico especializado en celulares y notebooks en Marcos Paz,
-            Buenos Aires.
+            Servicio técnico especializado en celulares y notebooks con atención
+            online por WhatsApp.
           </p>
           <div className="mt-6 flex gap-3">
             <Link
               href={whatsappUrl(business.whatsappMessage)}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="WhatsApp de CAMIFIX"
               className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.06] text-zinc-300 transition hover:text-text"
             >
@@ -24,6 +26,8 @@ export function Footer() {
             </Link>
             <Link
               href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram de CAMIFIX"
               className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.06] text-zinc-300 transition hover:text-text"
             >

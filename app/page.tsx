@@ -16,32 +16,11 @@ const localBusinessJsonLd = {
   "@id": "https://camifix.com.ar/#localbusiness",
   name: business.name,
   description:
-    "Servicio técnico especializado en reparación de celulares y notebooks en Marcos Paz, Buenos Aires.",
+    "Servicio técnico online especializado en reparación de celulares y notebooks.",
   url: "https://camifix.com.ar",
   telephone: "+541160479367",
   priceRange: "$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: business.address,
-    addressLocality: business.city,
-    addressRegion: business.province,
-    addressCountry: "AR",
-  },
-  areaServed: ["Marcos Paz", "Buenos Aires", "Argentina"],
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:30",
-      closes: "13:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "16:30",
-      closes: "20:00",
-    },
-  ],
+  areaServed: ["Argentina"],
   makesOffer: services.map((service) => ({
     "@type": "Offer",
     itemOffered: {

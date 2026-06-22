@@ -1,6 +1,6 @@
 # CAMIFIX Landing
 
-Landing page premium para CAMIFIX, servicio técnico especializado en reparación de celulares en Marcos Paz, Buenos Aires.
+Landing page premium para CAMIFIX, servicio técnico online especializado en reparación de celulares y notebooks.
 
 ## Estructura
 

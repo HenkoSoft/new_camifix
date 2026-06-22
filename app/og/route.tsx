@@ -29,7 +29,7 @@ export async function GET() {
         </div>
         <div>
           <div style={{ color: "#2563EB", fontSize: 28, marginBottom: 18 }}>
-            Servicio tecnico en Marcos Paz
+            Servicio tecnico online
           </div>
           <div style={{ fontSize: 78, lineHeight: 0.98, fontWeight: 800, maxWidth: 900 }}>
             Tu celular vuelve a funcionar.
@@ -39,7 +39,7 @@ export async function GET() {
           </div>
         </div>
         <div style={{ display: "flex", gap: 18, color: "#A1A1AA", fontSize: 25 }}>
-          <span>Bartolome Mitre 131</span>
+          <span>Atencion online</span>
           <span>+54 11 6047-9367</span>
         </div>
       </div>
