@@ -29,7 +29,7 @@ const localBusinessJsonLd = {
       serviceType: service.title,
     },
   })),
-  sameAs: ["https://www.instagram.com/"],
+  sameAs: ["https://www.instagram.com/camifix/"],
 };
 
 export default function Home() {

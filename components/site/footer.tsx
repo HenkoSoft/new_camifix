@@ -25,7 +25,7 @@ export function Footer() {
               <MessageCircle className="h-5 w-5" aria-hidden="true" />
             </Link>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/camifix/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram de CAMIFIX"
