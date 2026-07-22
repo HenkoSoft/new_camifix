@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 
-const siteUrl = "https://camifix.com.ar";
+const siteUrl = "https://www.camifix.com";
 const title = "CAMIFIX | Servicio técnico online de celulares y notebooks";
 const description =
   "Servicio técnico online especializado en reparación de celulares y notebooks. Cambio de pantalla, batería, pin de carga, diagnóstico y reparaciones Apple y Android.";

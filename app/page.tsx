@@ -13,11 +13,11 @@ import { business, services } from "@/lib/site-data";
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://camifix.com.ar/#localbusiness",
+  "@id": "https://www.camifix.com/#localbusiness",
   name: business.name,
   description:
     "Servicio técnico online especializado en reparación de celulares y notebooks.",
-  url: "https://camifix.com.ar",
+  url: "https://www.camifix.com",
   telephone: "+541160479367",
   priceRange: "$$",
   areaServed: ["Argentina"],
