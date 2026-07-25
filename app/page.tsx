@@ -1,5 +1,6 @@
 import { Benefits } from "@/components/site/benefits";
 import { Brands } from "@/components/site/brands";
+import { DolarBlue } from "@/components/DolarBlue";
 import { FinalCta } from "@/components/site/final-cta";
 import { FloatingWhatsApp } from "@/components/site/floating-whatsapp";
 import { Footer } from "@/components/site/footer";
@@ -41,6 +42,9 @@ export default function Home() {
       />
       <Header />
       <main>
+        <div className="bg-background pt-16">
+          <DolarBlue />
+        </div>
         <Hero />
         <Services />
         <Brands />
