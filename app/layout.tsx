@@ -1,19 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { siteConfig } from "@/lib/seo";
 import "./globals.css";
 
-const siteUrl = "https://www.camifix.com";
-const title = "CAMIFIX | Servicio técnico online de celulares y notebooks";
-const description =
-  "Servicio técnico online especializado en reparación de celulares y notebooks. Cambio de pantalla, batería, pin de carga, diagnóstico y reparaciones Apple y Android.";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteConfig.url),
   title: {
-    default: title,
+    default: siteConfig.title,
     template: "%s | CAMIFIX",
   },
-  description,
+  description: siteConfig.description,
   applicationName: "CAMIFIX",
   keywords: [
     "servicio técnico celulares online",
@@ -30,7 +26,7 @@ export const metadata: Metadata = {
   creator: "CAMIFIX",
   publisher: "CAMIFIX",
   alternates: {
-    canonical: "/",
+    canonical: siteConfig.url,
   },
   icons: {
     icon: "/icon.png",
@@ -38,14 +34,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "es_AR",
-    url: siteUrl,
+    locale: siteConfig.locale,
+    url: siteConfig.url,
     siteName: "CAMIFIX",
-    title,
-    description,
+    title: siteConfig.title,
+    description: siteConfig.description,
     images: [
       {
-        url: "/og",
+        url: `${siteConfig.url}/og`,
         width: 1200,
         height: 630,
         alt: "CAMIFIX servicio técnico online de celulares y notebooks",
@@ -54,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title,
-    description,
-    images: ["/og"],
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [`${siteConfig.url}/og`],
   },
   robots: {
     index: true,

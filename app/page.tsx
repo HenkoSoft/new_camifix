@@ -10,15 +10,16 @@ import { Process } from "@/components/site/process";
 import { Services } from "@/components/site/services";
 import { Testimonials } from "@/components/site/testimonials";
 import { business, services } from "@/lib/site-data";
+import { siteConfig } from "@/lib/seo";
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://www.camifix.com/#localbusiness",
+  "@id": `${siteConfig.url}/#localbusiness`,
   name: business.name,
   description:
     "Servicio técnico online especializado en reparación de celulares y notebooks.",
-  url: "https://www.camifix.com",
+  url: siteConfig.url,
   telephone: "+541160479367",
   priceRange: "$$",
   areaServed: ["Argentina"],

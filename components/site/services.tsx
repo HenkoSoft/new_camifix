@@ -8,8 +8,8 @@ export function Services() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Servicios"
-          title="Reparaciones con diagnostico serio y ejecucion precisa."
-          description="Cada equipo se revisa con criterio tecnico antes de presupuestar. Sin vueltas: foco total en la reparacion."
+          title="Reparaciones con diagnóstico serio y ejecución precisa."
+          description="Cada equipo se revisa con criterio técnico antes de presupuestar. Sin vueltas: foco total en la reparación."
         />
         <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => {

@@ -23,7 +23,7 @@ export function MobileMenu({ items }: MobileMenuProps) {
     <div className="md:hidden">
       <button
         type="button"
-        aria-label={isOpen ? "Cerrar menu" : "Abrir menu"}
+        aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
         aria-expanded={isOpen}
         aria-controls="mobile-menu"
         onClick={() => setIsOpen((current) => !current)}

@@ -17,14 +17,14 @@ export function Hero() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1.5 text-sm text-zinc-300 backdrop-blur-xl">
               <Sparkles className="h-4 w-4 text-primary" aria-hidden="true" />
-              Servicio tecnico online
+              Servicio técnico online
             </div>
             <h1 className="mt-7 text-balance text-5xl font-semibold leading-[0.94] text-text sm:text-6xl lg:text-7xl">
               Tu celular vuelve a funcionar.
             </h1>
             <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-zinc-300 sm:text-xl">
-              Servicio tecnico especializado en iPhone, Samsung, Motorola, Xiaomi
-              y mas. Reparaciones rapidas, garantia y atencion profesional.
+              Servicio técnico especializado en iPhone, Samsung, Motorola, Xiaomi
+              y más. Reparaciones rápidas, garantía y atención profesional.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href={budgetUrl} target="_blank" rel="noopener noreferrer">
@@ -40,11 +40,11 @@ export function Hero() {
                 WhatsApp
               </ButtonLink>
             </div>
-            <div className="mt-12 grid max-w-2xl grid-cols-3 gap-3">
+            <div className="mt-12 grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-3">
               {heroStats.map((stat) => (
                 <div
                   key={stat.label}
-                  className="rounded-2xl border border-white/10 bg-white/[0.045] p-4 backdrop-blur-xl"
+                  className="rounded-2xl border border-white/10 bg-white/[0.045] p-4 text-center backdrop-blur-xl"
                 >
                   <p className="text-lg font-semibold text-text sm:text-2xl">
                     {stat.value}
@@ -88,7 +88,7 @@ export function Hero() {
                 </div>
                 <div className="mt-5 grid grid-cols-3 gap-2 text-center text-xs text-zinc-300">
                   <span className="rounded-full bg-white/[0.07] px-2 py-2">Display</span>
-                  <span className="rounded-full bg-white/[0.07] px-2 py-2">Bateria</span>
+                  <span className="rounded-full bg-white/[0.07] px-2 py-2">Batería</span>
                   <span className="rounded-full bg-white/[0.07] px-2 py-2">Carga</span>
                 </div>
               </div>

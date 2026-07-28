@@ -16,10 +16,10 @@ export function FinalCta() {
                 Presupuesto por WhatsApp
               </p>
               <h2 className="mt-4 max-w-3xl text-balance text-4xl font-semibold leading-tight text-text sm:text-5xl">
-                ¿Tu celular tiene algun problema?
+                ¿Tu celular tiene algún problema?
               </h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-zinc-300">
-                Contanos marca, modelo y falla. Te orientamos con el proximo paso
+                Contanos marca, modelo y falla. Te orientamos con el próximo paso
                 para que recuperes tu equipo cuanto antes.
               </p>
             </div>

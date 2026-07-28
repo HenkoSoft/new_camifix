@@ -4,12 +4,12 @@ import { SectionHeading } from "@/components/ui/section-heading";
 
 export function Process() {
   return (
-    <section id="proceso" className="bg-background px-4 py-24 sm:px-6 lg:px-8">
+    <section id="proceso" className="bg-background px-4 py-8 sm:px-6 sm:py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Proceso"
-          title="De la falla a la solucion, sin friccion."
-          description="Un recorrido claro para que sepas que pasa con tu equipo en cada etapa."
+          title="De la falla a la solución, sin fricción."
+          description="Un recorrido claro para que sepas qué pasa con tu equipo en cada etapa."
         />
         <div className="relative mt-16 grid gap-4 lg:grid-cols-4">
           <div className="absolute left-0 right-0 top-10 hidden h-px bg-gradient-to-r from-transparent via-primary/70 to-transparent lg:block" />

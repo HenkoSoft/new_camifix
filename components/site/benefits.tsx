@@ -4,14 +4,14 @@ import { SectionHeading } from "@/components/ui/section-heading";
 
 export function Benefits() {
   return (
-    <section id="beneficios" className="bg-background px-4 py-24 sm:px-6 lg:px-8">
+    <section id="beneficios" className="bg-background px-4 py-8 sm:px-6 sm:py-24 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <MotionReveal>
           <SectionHeading
             align="left"
             eyebrow="Beneficios"
-            title="Servicio tecnico pensado para que no pierdas tiempo."
-            description="Te atendemos con criterio, comunicacion clara y garantia por el trabajo realizado."
+            title="Servicio técnico pensado para que no pierdas tiempo."
+            description="Te atendemos con criterio, comunicación clara y garantía por el trabajo realizado."
           />
         </MotionReveal>
         <div className="grid gap-3 sm:grid-cols-2">

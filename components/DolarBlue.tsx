@@ -81,12 +81,12 @@ export function DolarBlue() {
           throw new Error(
             isDolarBlueError(data)
               ? data.error
-              : "No pudimos actualizar la cotizacion.",
+              : "No pudimos actualizar la cotización.",
           );
         }
 
         if (!isDolarBlueData(data)) {
-          throw new Error("La cotizacion recibida no es valida.");
+          throw new Error("La cotización recibida no es válida.");
         }
 
         if (isMounted) {
@@ -101,7 +101,7 @@ export function DolarBlue() {
           setError(
             fetchError instanceof Error
               ? fetchError.message
-              : "No pudimos cargar la cotizacion.",
+              : "No pudimos cargar la cotización.",
           );
         }
       } finally {
@@ -136,7 +136,7 @@ export function DolarBlue() {
     return (
       <section className="border-y border-white/10 bg-transparent px-4 py-2 text-sm text-white sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl text-zinc-300">
-          No pudimos cargar la cotizacion del dolar blue. Intentalo nuevamente en
+          No pudimos cargar la cotización del dólar blue. Intentalo nuevamente en
           unos minutos.
         </div>
       </section>
@@ -155,7 +155,7 @@ export function DolarBlue() {
       title={updatedText}
     >
       <div className="mx-auto flex max-w-7xl flex-col gap-1 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5 sm:gap-y-1">
-        <div className="font-semibold text-cyan-400">DolarHoy / Blue</div>
+        <div className="font-semibold text-cyan-400">DólarHoy / Blue</div>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
           <span>
             <strong>Compra:</strong>{" "}

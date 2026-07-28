@@ -30,42 +30,50 @@ export const heroStats = [
 export const services = [
   {
     title: "Cambio de pantalla",
-    description: "Reemplazo preciso de módulos y displays con control de táctil, brillo y sellado.",
+    description:
+      "Reemplazo preciso de módulos y displays con control de táctil, brillo y sellado.",
     icon: Smartphone,
   },
   {
     title: "Cambio de batería",
-    description: "Autonomía renovada, medición de consumo y revisión del estado general del equipo.",
+    description:
+      "Autonomía renovada, medición de consumo y revisión del estado general del equipo.",
     icon: BatteryCharging,
   },
   {
     title: "Pin de carga",
-    description: "Limpieza, reparación o reemplazo del conector para una carga estable y segura.",
+    description:
+      "Limpieza, reparación o reemplazo del conector para una carga estable y segura.",
     icon: PlugZap,
   },
   {
     title: "Cámaras",
-    description: "Diagnóstico de enfoque, sensores, lentes y reemplazo de piezas cuando corresponde.",
+    description:
+      "Diagnóstico de enfoque, sensores, lentes y reemplazo de piezas cuando corresponde.",
     icon: Camera,
   },
   {
     title: "Diagnóstico técnico",
-    description: "Revisión profesional para detectar fallas de hardware, software o humedad.",
+    description:
+      "Revisión profesional para detectar fallas de hardware, software o humedad.",
     icon: Cpu,
   },
   {
     title: "Recuperación de software",
-    description: "Actualizaciones, restauraciones y solución de errores de sistema en iOS y Android.",
+    description:
+      "Actualizaciones, restauraciones y solución de errores de sistema en iOS y Android.",
     icon: Wrench,
   },
   {
     title: "Reparación de notebooks",
-    description: "Servicio técnico para notebooks, carga, batería, rendimiento y diagnóstico.",
+    description:
+      "Servicio técnico para notebooks, carga, batería, rendimiento y diagnóstico.",
     icon: Laptop,
   },
   {
     title: "Apple y Android",
-    description: "Atención especializada para iPhone, Samsung, Motorola, Xiaomi y más marcas.",
+    description:
+      "Atención especializada para iPhone, Samsung, Motorola, Xiaomi y más marcas.",
     icon: Apple,
   },
 ];
@@ -75,7 +83,8 @@ export const brands = ["Apple", "Samsung", "Motorola", "Xiaomi", "Realme", "TCL"
 export const processSteps = [
   {
     title: "Escribinos por WhatsApp",
-    description: "Contanos qué problema estás notando y coordinamos la mejor forma de revisar tu equipo.",
+    description:
+      "Contanos qué problema estás notando y coordinamos la mejor forma de revisar tu equipo.",
   },
   {
     title: "Diagnóstico",
@@ -123,5 +132,9 @@ export const testimonials = [
 export const contactItems = [
   { label: "Modalidad", value: "Atención online por WhatsApp", icon: Globe2 },
   { label: "WhatsApp", value: business.whatsappDisplay, icon: Smartphone },
-  { label: "Disponibilidad", value: "Respondemos por WhatsApp de lunes a sábado", icon: Clock3 },
+  {
+    label: "Disponibilidad",
+    value: "Respondemos por WhatsApp de lunes a sábado",
+    icon: Clock3,
+  },
 ];

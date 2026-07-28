@@ -1,12 +1,11 @@
 import type { MetadataRoute } from "next";
-
-const siteUrl = "https://www.camifix.com";
+import { siteConfig } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: siteUrl,
-      lastModified: new Date(),
+      url: `${siteConfig.url}/`,
+      lastModified: siteConfig.lastModified,
       changeFrequency: "weekly",
       priority: 1,
     },
